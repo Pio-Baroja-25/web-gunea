@@ -1,0 +1,105 @@
+button{
+    height: 20%;
+    width: 32.5%;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-left: 30px;
+}
+#dena{
+    border: 1px black  solid;
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 29%;
+    display: inline-block;
+    vertical-align:middle;
+}
+#dena button{
+    width: 32.5%;
+    height: 18.5%;
+}
+#botoiak{
+    background-color: cadetblue;
+    border: 2px black solid;
+    width: 60%;
+    height: 100px;
+    border-radius: 1%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#botoiak p{
+    padding-left: 5%;
+}
+#botoiak button{
+    height: 80%;
+    width: 70%;
+    border-radius: 10%;
+    background-color: skyblue;
+    margin-left: 15%;
+}
+#botoiak button:hover{
+    height: 90px;
+    width: 72%;
+    border-radius: 10%;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 14px;
+}
+#bot1{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+    visibility: hidden;
+}
+#bot2{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+    visibility: hidden;
+}
+#ema{
+    width: 60%;
+    height: 0px;
+    margin:auto;
+    visibility: hidden;
+    border: 1px solid blue;
+    background-color: lightgoldenrodyellow;
+    border-radius: 1%;
+    display: block;
+    margin-bottom: 5%;
+}
+#ematxt{
+    margin-top: 45;
+}
+#eskubia{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-left: 10%;
+}
+#gorria{
+    display: inline-block;
+    height: 2%;
+    width: 1%;
+    background-color: red;
+}
+#z{
+    width: 3%;
+    display: inline-block;
+}
+#o{
+    width: 8%;
+    display: inline-block;
+}
+#urdina{
+    height: 2%;
+    width: 1%;
+    background-color: blue;
+    display: inline-block;
+}
