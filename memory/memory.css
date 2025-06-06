@@ -1,0 +1,35 @@
+#kartak{
+    text-align: center;
+    
+}
+#izenburua{
+    text-align: center;
+    margin:auto;
+    font-style: bold;
+    padding:40px;
+    color:saddlebrown;
+    font-size: 30;
+    background-color: floralwhite;
+    width:700px;
+    border-radius: 20px;
+}
+img{
+    width:135px;
+    height:188px;
+}
+span{
+    font-size: 35;
+}
+#botoia{
+    color:white;
+    border:5px white solid;
+    text-align: center;
+    width:100px;
+    margin:auto;
+    font-size: 29px;
+    margin:20px auto;
+}
+#fondoa{
+    background-image: url('fondo.png');
+    opacity: 80%;
+}

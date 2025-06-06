@@ -1,0 +1,43 @@
+#fondoa {
+    background-color: black;
+    text-align: center;
+}
+#barra1 {
+    background-color: white;
+    height: 128px;
+    width: 16px;
+    position: absolute;
+    visibility: hidden;
+}
+#barra2{
+    background-color: white;
+    height: 128px;
+    width: 16px;
+    position: absolute;
+    visibility: hidden;
+}
+#bola {
+    background-color: white;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    visibility: hidden;
+    border-radius: 100%;
+}   
+button {
+    height: 64px;
+    width: 256px;
+    font-size: 32px;
+    font-weight: bold;
+}
+#kontadorea {
+    display: inline-block;
+    border: 1px dotted lime;
+    text-align: center;
+    padding: 32px;
+    position: absolute;
+    opacity: 50%;
+    color: yellow;
+    visibility: hidden;
+    font-size: 16px;
+}
