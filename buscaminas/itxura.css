@@ -1,0 +1,40 @@
+#taula{
+    display: grid;
+    grid-template-columns: repeat(10,40px);
+}
+button{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+}
+#etxea{
+    height: 100px;
+    width: 100px;
+}
+img{
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+}
+#banderakmenua{
+    text-align: center;
+    width: 40px;
+    margin-right: 40px;
+    display: inline-block;
+}
+#denboramenua{
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    margin-right: 40px;
+}
+#aurpegia{
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+#aurpegi{
+    margin-top: 40px;
+    background-image: url(aurpegia.JPG);
+}

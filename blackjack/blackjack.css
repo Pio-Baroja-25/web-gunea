@@ -1,0 +1,75 @@
+body {
+    background-color: darkred;
+}
+
+#krupier_titulua {
+    position: absolute;
+    color: white;
+    left: 100px;
+}
+
+#nik_titulua {
+    position: absolute;
+    color: white;
+    right: 100px;
+}
+
+#botoiak {
+    position: absolute;
+    bottom: 50px;
+}
+
+.bot {
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 30px;
+    margin: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    transition-duration: 0.5s;
+}
+
+.bot:hover {
+    padding: 15px 37px;
+}
+
+#cartas_krupier {
+    position: absolute;
+    left: 450px;
+}
+
+#cartas_mias {
+    position: absolute;
+    left: 450px;
+    bottom: 150px;
+}
+
+#mahaia {
+    position: absolute;
+    top: 0;
+    width: 60%;
+    left: 360px;
+}
+
+#reset {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+#dirua {
+    position: relative;
+    color: white;
+    top: 520px;
+}
+
+#berriro {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    visibility: hidden;
+    top: 200px;
+    left: 0px;
+}

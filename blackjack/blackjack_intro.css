@@ -1,0 +1,47 @@
+body {
+    background-color: darkgreen;
+}
+
+.glow {
+  font-size: 120px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #870404, 0 0 40px #870404, 0 0 50px #870404, 0 0 60px #870404, 0 0 70px #870404;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #6d0404, 0 0 40px #6d0404, 0 0 50px #6d0404, 0 0 60px #6d0404, 0 0 70px #6d0404, 0 0 80px #6d0404;
+  }
+}
+
+#div {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    top: 220px;
+    border: 5px gold solid;
+    border-radius: 30px;
+}
+
+#botoia {
+    position: relative;
+    top: 20px;
+    border: 5px gold solid;
+    border-radius: 30px;
+    background-color: gold;
+    padding: 30px 70px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+#botoia:hover {
+    padding: 40px 80px;
+}

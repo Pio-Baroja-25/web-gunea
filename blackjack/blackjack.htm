@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="blackjack.css">
+        <script src="blackjack.js"></script>
+    </head>
+    <body onload="onload()">
+        <img id="mahaia" onclick="prueba()" src="blackjack_mahaia.png">
+        <h1 id="krupier_titulua">KRUPIER: <br><span id="puntuak_krupier">0</span></h1>
+        <h1 id="nik_titulua">NIK: <br><span id="puntuak_nik">0</span></h1>
+        <div id="botoiak">
+            <button class="bot" id="hasi" onclick="partida_hasi()" disabled>HASI</button>
+            <button class="bot" id="karta" onclick="karta_berria()">KARTA</button> 
+            <button class="bot" id="gelditu" onclick="gelditu_partida()">GELDITU</button>
+        </div>
+        <div id="cartas_krupier">
+            <img id="krupier1">
+            <img id="krupier2">
+            <img id="krupier3">
+            <img id="krupier4">
+            <img id="krupier5">
+        </div>
+        <div id="cartas_mias">
+            <img id="nirea1">
+            <img id="nirea2">
+            <img id="nirea3">
+            <img id="nirea4">
+            <img id="nirea5">
+        </div>
+        <a class="bot" id="reset" onclick="reset_partida()">RESET</a>
+        <div id="dirua">
+            <h1>Zure dirua:</h1>
+            <h1 id="diru_kop">10</h1>
+            <h1>APUSTUA:</h1>
+            <input id="diru_apustua" onclick="borratu()" type="number" oninput="verificar_testua()">
+            <h1 id="nahikoez"></h1>
+        </div>
+        <a class="bot" id="berriro" href="blackjack_intro.htm">BERRIRO?</a>
+        <audio id="musica_fondo" src="casino.mp3" loop></audio>
+        <audio id="sonido_ganar" src="victoria.mp3"></audio>
+        <audio id="sonido_perder" src="derrota.mp3"></audio>
+    </body>
+</html>
