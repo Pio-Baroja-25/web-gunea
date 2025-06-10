@@ -5,7 +5,7 @@ function simon(){
     location.replace("./simon/simon.html")
 }
 function pong(){
-    location.replace("./pong/ariketaA.htm")
+    location.replace("./pong/index.html")
 }
 function dinosaurio(){
     location.replace("./dinosaurio/jokua.html")
