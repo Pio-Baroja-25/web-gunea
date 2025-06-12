@@ -17,8 +17,8 @@ function zenbakiak(){
     location.replace("./zenbakiak/index.html")
 }
 function tictactoe(){
-    location.replace("./memory/memory.html")
+    location.replace("./TIC-TAC-TOE/index.html")
 }
 function memory(){
-    location.replace("./memory/memory.html")
+    location.replace("./memory/index.html")
 }
