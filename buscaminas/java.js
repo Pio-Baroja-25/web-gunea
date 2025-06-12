@@ -321,5 +321,5 @@ function reset(){
     minakjarri()
 }
 function home(){
-    location.replace("../hub.html")
+    location.replace("../index.html")
 }
