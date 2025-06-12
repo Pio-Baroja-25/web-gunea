@@ -19,3 +19,6 @@ function zenbakiak(){
 function tictactoe(){
     location.replace("./memory/memory.html")
 }
+function memory(){
+    location.replace("./memory/memory.html")
+}
