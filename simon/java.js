@@ -4,7 +4,7 @@ var galdu=0
 var puntu=0
 var kont=0
 function home(){
-    location.replace("../hub.html")
+    location.replace("../index.html")
 }
 function hasi(){
     for(let i=0;i<9;i++){
