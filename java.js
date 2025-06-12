@@ -8,7 +8,7 @@ function pong(){
     location.replace("./PONG/index.html")
 }
 function dinosaurio(){
-    location.replace("./dinosaurio/jokua.html")
+    location.replace("./dinosaurio/index.html")
 }
 function blackjack(){
     location.replace("./blackjack/blackjack_intro.htm")
