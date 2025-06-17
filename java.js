@@ -14,7 +14,7 @@ function blackjack(){
     location.replace("./blackjack/index.htm")
 }
 function zenbakiak(){
-    location.replace("./zenbakiak/index.html")
+    location.replace("./Zenbakiak/index.html")
 }
 function tictactoe(){
     location.replace("./TIC-TAC-TOE/index.html")
