@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://iespiobarojabhi.net/index2.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="emotion-insertion-point" content="">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pio Baroja IKASLEAK</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./PioBarojaIKASLEAK_files/css2" rel="stylesheet">
+
+  <style>
+    @font-face {
+      font-family: 'Tahoma';
+      src: url('tahoma.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-image: url("fondo_3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Tahoma', sans-serif;
+      background-attachment: fixed;
+    }
+
+    #erdikoa {
+      background-color: white;
+      margin: 0 auto;
+      width: 90%;
+      max-width: 1200px;
+      border-radius: 30px;
+      border: 10px solid gainsboro;
+      padding: 2%;
+      box-sizing: border-box;
+    }
+
+    #zerbitzuak, #jarraibideak, #dokumentuak {
+      border-radius: 10px;
+      padding: 2%;
+      margin-bottom: 20px;
+    }
+
+    #zerbitzuak {
+      background-color:#80CFC2;
+    }
+
+    #jarraibideak {
+      background-color: #F2E982;
+      flex: 2;
+    }
+
+    #dokumentuak {
+      background-color: #80CFC2;
+      flex: 1;
+    }
+
+   
+
+    /* Contenedor inferior (dos columnas en pantallas grandes) */
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    /* Imagenes */
+    img {
+      /*max-width: 120px;*/
+      height: auto;
+      margin: 5px;
+      transition: transform 0.4s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .lotura :hover {
+      animation: igo-jaitsi 0.6s ease-in-out;
+    }
+
+    @keyframes igo-jaitsi {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* 🔹 Responsive: ajustar columnas en pantallas pequeñas */
+    @media (max-width: 900px) {
+      .flex-container {
+        flex-direction: column;
+      }
+
+      #jarraibideak, #dokumentuak {
+        width: 100%;
+      }
+
+      img {
+        max-width: 90px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      img {
+        max-width: 70px;
+      }
+
+      #erdikoa {
+        padding: 5%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+<div id="erdikoa">
+  <a href="https://piobaroja.eus/" target="_blank" rel="noopener noreferrer"><img src="./PioBarojaIKASLEAK_files/pio_logo_berria.png"></a> 
+  <div id="zerbitzuak">
+    <div id="izenburua"><img src="./PioBarojaIKASLEAK_files/botoi_horizontalak_ikasleak.png"></div> 
+    
+    <a href="https://gmail.com/" target="_blank" rel="noopener noreferrer" class="lotura"><img src="./PioBarojaIKASLEAK_files/01_korreoa.png"></a>
+    <a href="https://elearning24.hezkuntza.net/013013/login/index.php/default.aspx" target="_blank" rel="noopener noreferrer" class="lotura"><img src="./PioBarojaIKASLEAK_files/02_moodle.png"></a>
+    <a href="https://iespiobarojabhi.net/egutegia.pdf" target="_blank" rel="noopener noreferrer" class="lotura"><img src="./PioBarojaIKASLEAK_files/03_egutegia.png"></a>
+   
+    <a href="https://google.com/" target="_blank" rel="noopener noreferrer" class="lotura"><img src="./PioBarojaIKASLEAK_files/botoia_04_google.png"></a>
+    
+  
+  </div>
+      
+  
+
+
+<div id="quick-start-container"></div></body></html>
